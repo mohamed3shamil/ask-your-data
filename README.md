@@ -31,16 +31,20 @@
 
 ### Backend (Flask)
 1. Install Python dependencies:
+
 pip install flask pandas werkzeug ollama
 
 2. Start Flask server:
+
 python app.py
 
 ### Frontend (Laravel)
 1. Install PHP dependencies:
+
 composer install
 
 2. Set up `.env` with your database configuration:
+
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
@@ -49,10 +53,13 @@ DB_USERNAME=root
 DB_PASSWORD=
 
 3. Run Laravel development server:
+
 php artisan serve
 
 ### Ollama
+
 Start the desired LLM model:
+
 ollama run llama3
 
 ## Usage
