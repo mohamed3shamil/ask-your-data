@@ -1,1 +1,26 @@
-*.sqlite*
+# Laravel
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+*.env
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
